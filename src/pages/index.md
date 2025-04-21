@@ -9,32 +9,34 @@ mainpitch:
     Lantabuur Trans adalah layanan transportasi profesional yang siap memenuhi kebutuhan perjalanan Anda dengan armada *Isuzu Elf & Proton Exora* yang nyaman dan terawat. Kami berkomitmen untuk memberikan layanan terbaik dengan sistem *jemput dan antar langsung ke lokasi* (door-to-door), sehingga perjalanan Anda lebih praktis, aman, dan efisien.  
 
 description: >-
-  ✔ Travel Door-to-Door – Antar jemput langsung ke lokasi tujuan Anda  
-  ✔ Titip Paket Barang – Kirim barang dengan aman dan cepat  
-  ✔ Antar Jemput Bandara – Solusi praktis untuk perjalanan udara Anda  
-  ✔ Sewa untuk Acara Pernikahan – Transportasi nyaman untuk keluarga & tamu  
-  ✔ Perjalanan Pulang Kampung – Mudik lebih mudah tanpa repot  
-  ✔ Wisata & Tour – Nikmati perjalanan liburan dengan nyaman  
-
+  ✔ Travel Door-to-Door – Layanan antar jemput langsung ke lokasi tujuan Anda.
+  ✔ Titip Paket Barang – Pengiriman barang dengan aman, cepat, dan terpercaya.
+  ✔ Antar Jemput Bandara – Solusi perjalanan nyaman dari dan ke bandara.
+  ✔ Sewa untuk Acara Pernikahan – Transportasi eksklusif untuk keluarga & tamu undangan.
+  ✔ Perjalanan Pulang Kampung – Mudik lebih mudah tanpa repot dengan armada luas.
+  ✔ Wisata & Tour – Perjalanan liburan lebih menyenangkan dengan fasilitas terbaik.
 subdescription: >-
-  ✔ Travel Door-to-Door – Antar jemput langsung ke lokasi tujuan Anda  
-  ✔ Titip Paket Barang – Kirim barang dengan aman dan cepat  
-  ✔ Antar Jemput Bandara – Solusi praktis untuk perjalanan udara Anda  
-  ✔ Sewa untuk Acara Pernikahan – Transportasi nyaman untuk keluarga & tamu  
-  ✔ Perjalanan Pulang Kampung – Mudik lebih mudah tanpa repot  
-  ✔ Wisata & Tour – Nikmati perjalanan liburan dengan nyaman  
-
+  Mengapa Memilih Lantabuur Trans?
+  Armada terawat, bersih, dan nyaman
+  Sopir profesional & berpengalaman
+  Harga kompetitif dengan layanan terbaik
+  Fleksibel, bisa berangkat kapan saja
+  Booking mudah & respon cepat.
 
 intro:
   blurbs:
-    - image: /img/luxio.png
+    - image: /img/jakarta-semarang.png
       text: >
-       Proton Exora – MPV Nyaman dan Bertenaga untuk Keluarga
-       Proton Exora adalah MPV (Multi-Purpose Vehicle) yang dirancang untuk memberikan kenyamanan dan kepraktisan bagi keluarga maupun perjalanan bisnis. Dengan desain modern dan fitur canggih, Exora menawarkan pengalaman berkendara yang lebih baik di berbagai kondisi jalan.
-    - image: /img/elf.png
+        Sewa ELF Jakarta – Semarang dengan harga terjangkau untuk perjalanan yang nyaman dan aman! Nikmati layanan door-to-door, armada luas dan terawat, serta sopir berpengalaman yang siap mengantar Anda dengan pelayanan terbaik. Cocok untuk mudik, wisata, atau perjalanan bisnis. Pesan sekarang dan rasakan perjalanan tanpa repot!.
+    - image: /img/jakarta-kebumen.png
       text: >
-        Isuzu Elf Long – Minibus Nyaman untuk Perjalanan Anda.
-        Isuzu Elf Long merupakan kendaraan minibus berkapasitas besar yang ideal untuk transportasi wisata, travel, antar-jemput karyawan, serta kebutuhan bisnis lainnya. Dilengkapi dengan desain modern dan kabin luas, Elf ini memberikan kenyamanan maksimal bagi penumpang dalam perjalanan jauh maupun dekat.
+        Sewa ELF Jakarta – Kebumen dengan layanan nyaman dan harga terjangkau! Nikmati perjalanan door-to-door dengan armada luas, terawat, dan sopir berpengalaman. Cocok untuk mudik, wisata, atau perjalanan bisnis. Pesan sekarang untuk perjalanan aman dan bebas repot!.
+    - image: /img/jakarta-pemalang.png
+      text: >
+        Sewa ELF Jakarta – Pemalang dengan harga terjangkau dan pelayanan terbaik! Nikmati perjalanan door-to-door dengan armada luas, nyaman, dan sopir berpengalaman. Cocok untuk mudik, wisata, atau perjalanan bisnis. Pesan sekarang untuk perjalanan aman dan tanpa repot!.
+    - image: /img/jakarta-cirebon.png
+      text: >
+        Sewa ELF Jakarta – Cirebon dengan layanan nyaman dan harga terjangkau! Perjalanan door-to-door dengan armada luas, terawat, dan sopir berpengalaman. Cocok untuk mudik, wisata, atau perjalanan bisnis. Pesan sekarang untuk perjalanan aman dan bebas repot!.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

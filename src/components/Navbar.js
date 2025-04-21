@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
+// import github from "../img/github-icon.svg";
+import whatsapp from "../img/whatsapp.png"; // pastikan file ini ada di folder img
 import logo from "../img/logo.png";
 
 const Navbar = () => {
@@ -34,18 +35,14 @@ const Navbar = () => {
             isActive && "is-active"
           }`}
         >
-          {/* TODO: inline override of padding is a result of refactoring
-                to a ul for accessibilty purposes, would like to see a css
-                re-write that makes this unneccesary.
-             */}
           <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/about">
               About
             </Link>
           </li>
           <li className="navbar-item" style={{ padding: "0px" }}>
-            <Link className="navbar-item" to="/products">
-              Products
+            <Link className="navbar-item" to="/product">
+              Product
             </Link>
           </li>
           <li className="navbar-item" style={{ padding: "0px" }}>
@@ -58,20 +55,15 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
-          <li className="navbar-item" style={{ padding: "0px" }}>
-            <Link className="navbar-item" to="/contact/examples">
-              Form Examples
-            </Link>
-          </li>
           <li className="navbar-end has-text-centered">
             <a
               className="navbar-item"
-              href="https://github.com/decaporg/gatsby-plugin-decap-cms"
+              href="https://wa.me/6289526448697?text=Halo, saya tertarik dengan produk Anda."
               target="_blank"
               rel="noopener noreferrer"
             >
               <span className="icon">
-                <img src={github} alt="Github" />
+                <img src={whatsapp} alt="WhatsApp" />
               </span>
             </a>
           </li>

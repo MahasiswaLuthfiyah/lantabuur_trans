@@ -53,7 +53,7 @@ const BlogRollTemplate = (props) => {
                 <br />
                 <br />
                 <Link className="button" to={post.fields.slug}>
-                  Keep Reading →
+                  Baca Selengkapnya →
                 </Link>
               </p>
             </article>
