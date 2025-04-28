@@ -6,7 +6,7 @@ subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Selamat Datang di Lantabuur Trans – Solusi Transportasi Nyaman dan Terpercaya!
   description: >
-    Lantabuur Trans adalah layanan transportasi profesional yang siap memenuhi kebutuhan perjalanan Anda dengan armada *Isuzu Elf & Proton Exora* yang nyaman dan terawat. Kami berkomitmen untuk memberikan layanan terbaik dengan sistem *jemput dan antar langsung ke lokasi* (door-to-door), sehingga perjalanan Anda lebih praktis, aman, cepat, dan efisien.  
+    Lantabuur Trans adalah layanan transportasi profesional yang siap memenuhi kebutuhan perjalanan Anda dengan armada *Isuzu Elf & Proton Exora* yang nyaman dan terawat. Kami berkomitmen untuk memberikan layanan terbaik dengan sistem *jemput dan antar langsung ke lokasi* (door-to-door), sehingga ada perjalanan Anda lebih praktis, aman, cepat, dan efisien.  
 
 description: >-
   ✔ Travel Door-to-Door – Layanan antar jemput langsung ke lokasi tujuan Anda.
