@@ -58,7 +58,7 @@ const Navbar = () => {
           <li className="navbar-end has-text-centered">
             <a
               className="navbar-item"
-              href="https://wa.me/6289526448697?text=Halo, saya tertarik dengan produk Anda."
+              href="https://wa.me/6285859896545?text=Halo, Halo Admin Lantabuur Trans, saya ingin tanya-tanya soal sewa kendaraan di Lantabuur Trans. Bisa dibantu?"
               target="_blank"
               rel="noopener noreferrer"
             >
