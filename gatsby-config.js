@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: "Lantabuur Trans",
-    description:
-      "Solusi Transportasi Nyaman dan Terpercaya.",
+    description:"Solusi Transportasi Nyaman dan Terpercaya.",
+    author:"Luthfiyah Insaani",
+    keywords:"sewa mobil Luxio Jakarta,jasa antar jemput terdekat,tips mudik aman dan nyaman",
+    url:"https://lantabuurtrans.biz.id/"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
