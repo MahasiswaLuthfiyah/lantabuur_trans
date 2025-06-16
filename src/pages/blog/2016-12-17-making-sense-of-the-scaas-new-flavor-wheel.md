@@ -6,8 +6,9 @@ featuredpost: true
 featuredimage: /img/expora.png
 description: Mobil Luxio menjadi pilihan ideal untuk perjalanan keluarga atau dinas. Simak tips memilih layanan sewa mobil Luxio yang tepat agar perjalanan Anda makin nyaman dan aman.
 tags:
-  - sewa mobil
-  - mobil luxio
+  - sewa trasnportasi
+  - travel 
+  - trans
   - tips perjalanan
 ---
 ![flavor wheel](/img/luxio1.png)
