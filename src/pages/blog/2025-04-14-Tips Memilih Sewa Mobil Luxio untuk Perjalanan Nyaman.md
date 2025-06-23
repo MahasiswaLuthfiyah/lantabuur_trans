@@ -1,5 +1,6 @@
 ---
 templateKey: blog-post
+path: /blog
 title: Tips Memilih Sewa Mobil Luxio untuk Perjalanan Nyaman
 date: 2025-04-14T10:00:00.000Z
 featuredpost: true

@@ -1,5 +1,6 @@
 ---
 templateKey: 'blog-post'
+path: /blog
 title: 'Tips Memilih Sewa Transportasi yang Tepat'
 date: 2025-04-19T10:00:00.000Z
 featuredpost: true
