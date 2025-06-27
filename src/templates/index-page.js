@@ -60,9 +60,9 @@ export const IndexPageTemplate = ({
                     </h3>
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/blog">
-                        Read more
-                      </Link>
+                    <Link className="button" to={post.fields.slug}>
+                      Baca selengkapnya: {post.frontmatter.title} →
+                    </Link>
                     </div>
                   </div>
                 </div>
