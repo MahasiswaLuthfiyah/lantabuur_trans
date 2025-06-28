@@ -5,24 +5,26 @@ title: Tentang Kami - Lantabuur Trans
 ---
 
 ### Tentang Kami – Lantabuur Trans  
-Di **Lantabuur Trans**, kami lebih dari sekadar layanan transportasi. Kami hadir sebagai solusi perjalanan yang nyaman, aman, dan terpercaya untuk setiap perjalanan Anda. Dengan armada terbaik dan pelayanan profesional, kami siap mengantarkan Anda ke tujuan dengan pengalaman berkendara yang menyenangkan.  
+Di Lantabuur Trans, kami percaya perjalanan yang nyaman itu berawal dari layanan yang tulus dan armada yang terawat. Kami bukan sekadar jasa transportasi — kami ingin jadi teman perjalanan yang bisa diandalkan ke mana pun tujuan Anda.  
 
 ### Kenapa Memilih Lantabuur Trans?  
 
-#### 🚐 **Armada Nyaman & Terawat**  
-Kami menyediakan **Isuzu Elf & Proton Exora** yang selalu dalam kondisi prima, memastikan perjalanan Anda tetap nyaman dan aman.  
+#### **Armada Bersih dan Nyaman**  
+Kami menyediakan mobil Isuzu Elf dan Proton Exora yang selalu siap jalan. Perawatan rutin dan kebersihan kendaraan selalu kami utamakan, supaya perjalanan Anda tenang dan nyaman.
 
-#### 🚖 **Layanan Antar Jemput (Door-to-Door)**  
-Nikmati kemudahan layanan antar jemput langsung ke lokasi tujuan Anda tanpa ribet. Kami siap melayani perjalanan pribadi, keluarga, atau grup dengan fleksibilitas tinggi.  
+#### **Antar Jemput Praktis (Door-to-Door)**  
+Tak perlu repot. Kami siap menjemput dan mengantar Anda langsung ke alamat tujuan. Perjalanan keluarga, rombongan, atau perjalanan pribadi — semua bisa diatur dengan fleksibel.
 
-#### 🎯 **Profesional & Tepat Waktu**  
-Dengan tim sopir berpengalaman, kami memastikan perjalanan yang efisien dan tepat waktu. Kenyamanan serta keselamatan Anda adalah prioritas kami.  
+#### **Sopir Berpengalaman dan Ramah**  
+Tim sopir kami sudah terbiasa membawa penumpang ke berbagai rute dengan aman dan tepat waktu. Keramahan dan ketepatan jadi prinsip kami melayani Anda.
 
-#### 🌍 **Layanan Luas & Fleksibel**  
-Dari **travel antar kota, wisata, perjalanan bisnis, antar jemput bandara**, hingga **sewa kendaraan untuk acara pernikahan dan pulang kampung**, kami siap melayani kebutuhan transportasi Anda dengan harga terbaik.  
+#### **Layanan Lengkap Sesuai Kebutuhan**  
+Mau travel antar kota, liburan wisata, keperluan bisnis, antar jemput bandara, pulang kampung, atau acara pernikahan? Semua bisa Anda percayakan ke kami. Harga jelas, pelayanan memuaskan.
 
-#### 💼 **Komitmen Kami untuk Kepuasan Pelanggan**  
-Kami percaya bahwa perjalanan bukan sekadar berpindah tempat, tapi juga tentang pengalaman yang menyenangkan. Oleh karena itu, kami terus meningkatkan layanan agar Anda mendapatkan yang terbaik setiap saat.  
+#### **Kami Peduli Pengalaman Perjalanan Anda**  
+Bagi kami, perjalanan bukan hanya soal jarak tempuh, tapi juga pengalaman di sepanjang jalan. Karena itu kami selalu berusaha memberi pelayanan terbaik agar setiap perjalanan terasa lebih berkesan.
 
-🌟 **Lantabuur Trans – Teman Perjalanan Anda!** 🌟
+Terima kasih telah mempercayakan perjalanan Anda bersama Lantabuur Trans. Kami siap jadi teman perjalanan ke mana pun Anda pergi!
+
+**Lantabuur Trans – Teman Perjalanan Anda!** 
 

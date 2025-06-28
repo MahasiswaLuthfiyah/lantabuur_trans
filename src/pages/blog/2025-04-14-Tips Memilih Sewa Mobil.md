@@ -8,7 +8,7 @@ featuredimage: /img/expora.png
 description: Temukan tips memilih sewa mobil Luxio untuk perjalanan nyaman dan efisien. Cocok untuk wisata luar kota, mudik lebaran, dan jasa antar jemput di Jakarta. Dapatkan panduan memilih layanan sewa transportasi terpercaya, termasuk tips sewa mobil, mobil keluarga, hingga jasa antar jemput terdekat Anda.
 tags:
   - travel 
-  - trans
+  - lantabuur trans
   - tips perjalanan
   - wisata luar kota
   - mobil luxio
@@ -16,11 +16,11 @@ tags:
   - tips sewa mobil
   - tips mudik aman dan nyaman
   - tips mudik lebaran
-  - jasa antar jemput terdekat saya
+  - jasa antar jemput bandara Jakarta
   - jasa antar jemput jakarta
-  - sewa trasnportasi terdekat saya
+  - sewa transportasi terdekat saya
   - sewa mobil jakarta
-  - sewa mobil pulang kampung 
+  - sewa mobil pulang kampung lebaran Jakarta
 ---
 ![flavor wheel](/img/luxio1.png)
 

@@ -1,12 +1,14 @@
 ---
-templateKey: 'product-page'
-path: /product
+templateKey: 'armada-page'
+path: /armada
 image: /img/rental1.png
-heading: Selamat Datang di Halaman Rental Price Lantabuur Trans.
+heading: Selamat Datang di Halaman Armada Lantabuur Trans.
 description: >-
-   Di halaman ini, Anda dapat menemukan informasi lengkap mengenai tarif sewa kendaraan yang kami sediakan untuk berbagai tujuan perjalanan. Lantabuur Trans berkomitmen memberikan layanan transportasi yang nyaman, aman, dan terpercaya dengan harga yang kompetitif.
-   Tersedia beragam pilihan kendaraan, mulai dari minibus hingga MPV keluarga, yang siap memenuhi kebutuhan perjalanan pribadi, keluarga, maupun kelompok. Setiap tarif disusun secara transparan berdasarkan rute perjalanan, dengan pelayanan profesional dari tim kami.
-   Silakan telusuri informasi harga yang tersedia dan hubungi kami untuk pemesanan atau pertanyaan lebih lanjut.
+   Kami dengan senang hati mempersembahkan beragam pilihan armada terbaik untuk mendukung kebutuhan perjalanan Anda. Di sini, Anda dapat melihat informasi lengkap mengenai jenis kendaraan, fasilitas, serta layanan yang kami sediakan untuk menjamin kenyamanan, keamanan, dan kepuasan Anda selama perjalanan.
+
+   Lantabuur Trans berkomitmen memberikan layanan transportasi profesional dengan armada yang terawat, sopir berpengalaman, dan harga yang transparan. Temukan kendaraan yang paling sesuai dengan kebutuhan perjalanan pribadi, keluarga, rombongan, maupun keperluan dinas Anda.
+
+   Jelajahi pilihan armada kami, dapatkan informasi detailnya, dan jangan ragu untuk menghubungi tim kami jika ada pertanyaan atau ingin melakukan pemesanan.
 
 
 intro:

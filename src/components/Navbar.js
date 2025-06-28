@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-// import github from "../img/github-icon.svg";
-import whatsapp from "../img/whatsapp.png"; // pastikan file ini ada di folder img
+import whatsapp from "../img/whatsapp.png";
 import logo from "../img/logo.png";
 
 const Navbar = () => {
@@ -16,11 +15,12 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-brand">
           <Link to="/" className="navbar-item" title="Logo">
-            <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
+            <img src={logo} alt="Lantabuur Trans" style={{ width: "88px" }} />
           </Link>
-          {/* Hamburger menu */}
+
           <button
-            className={`navbar-burger burger ${isActive && "is-active"}`}
+            className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
+            aria-label="menu"
             aria-expanded={isActive}
             onClick={() => setIsActive(!isActive)}
           >
@@ -29,45 +29,39 @@ const Navbar = () => {
             <span />
           </button>
         </div>
-        <ul
+
+        <div
           id="navMenu"
-          className={` navbar-start has-text-centered navbar-menu ${
-            isActive && "is-active"
-          }`}
+          className={`navbar-menu ${isActive ? "is-active" : ""}`}
         >
-          <li className="navbar-item" style={{ padding: "0px" }}>
+          <div className="navbar-start has-text-centered">
             <Link className="navbar-item" to="/about">
-              About
+              Tentang Kami
             </Link>
-          </li>
-          <li className="navbar-item" style={{ padding: "0px" }}>
-            <Link className="navbar-item" to="/product">
-              Product
+            <Link className="navbar-item" to="/armada">
+              Armada
             </Link>
-          </li>
-          <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/blog">
               Blog
             </Link>
-          </li>
-          <li className="navbar-item" style={{ padding: "0px" }}>
             <Link className="navbar-item" to="/contact">
-              Contact
+              Kontak
             </Link>
-          </li>
-          <li className="navbar-end has-text-centered">
+          </div>
+
+          <div className="navbar-end has-text-centered">
             <a
               className="navbar-item"
-              href="https://wa.me/6285859896545?text=Halo, Halo Admin Lantabuur Trans, saya ingin tanya-tanya soal sewa kendaraan di Lantabuur Trans. Bisa dibantu?"
+              href="https://wa.me/6285859896545?text=Halo, Admin Lantabuur Trans! Saya mau tanya soal sewa kendaraan. Bisa dibantu?"
               target="_blank"
               rel="noopener noreferrer"
             >
               <span className="icon">
-                <img src={whatsapp} alt="WhatsApp" />
+                <img src={whatsapp} alt="WhatsApp" style={{ width: "28px" }} />
               </span>
             </a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </nav>
   );

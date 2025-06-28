@@ -3,8 +3,8 @@ module.exports = {
     title: "Lantabuur Trans",
     description:"Solusi Transportasi Nyaman dan Terpercaya.",
     author:"Luthfiyah Insaani",
-    keywords:"sewa mobil Luxio Jakarta,jasa antar jemput terdekat,tips mudik aman dan nyaman",
-    url:"https://lantabuurtrans.biz.id/"
+    keywords: "sewa mobil Jakarta, rental Elf Jakarta, sewa Luxio murah, jasa antar jemput Jakarta, sewa transportasi liburan, tips sewa mobil aman, harga rental mobil Jakarta, travel Jakarta ke Cirebon, sewa mobil pulang kampung, transportasi mudik lebaran",
+    url:"https://lantabuurtrans.com/"
   },
   plugins: [
     "gatsby-plugin-react-helmet",

@@ -36,8 +36,8 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/product">
-                        Product
+                      <Link className="navbar-item" to="/armada">
+                        Armada
                       </Link>
                     </li>
                     {/* <li>

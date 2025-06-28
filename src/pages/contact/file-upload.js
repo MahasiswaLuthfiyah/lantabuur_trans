@@ -55,33 +55,43 @@ export default class Contact extends React.Component {
                 data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}
               >
-                {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+                {/* Required hidden field for Netlify */}
                 <input type="hidden" name="form-name" value="file-upload" />
                 <div hidden>
-                  <label>
-                    Don’t fill this out:{" "}
-                    <input name="bot-field" onChange={this.handleChange} />
+                  <label htmlFor="bot-field">
+                    Don’t fill this out:
+                    <input
+                      id="bot-field"
+                      name="bot-field"
+                      onChange={this.handleChange}
+                    />
                   </label>
                 </div>
+
                 <div className="field">
-                  <label className="label" htmlFor={"name"}>
+                  <label className="label" htmlFor="name">
                     Your name
                   </label>
                   <div className="control">
                     <input
                       className="input"
-                      type={"text"}
-                      name={"name"}
+                      type="text"
+                      name="name"
+                      id="name"
                       onChange={this.handleChange}
-                      id={"name"}
-                      required={true}
+                      required
                     />
                   </div>
                 </div>
+
                 <div className="field">
+                  <label className="label" htmlFor="attachment">
+                    Upload file
+                  </label>
                   <div className="file">
-                    <label className="file-label">
+                    <div className="file-label">
                       <input
+                        id="attachment"
                         className="file-input"
                         type="file"
                         name="attachment"
@@ -90,9 +100,10 @@ export default class Contact extends React.Component {
                       <span className="file-cta">
                         <span className="file-label">Choose a file…</span>
                       </span>
-                    </label>
+                    </div>
                   </div>
                 </div>
+
                 <div className="field">
                   <button className="button is-link" type="submit">
                     Send
