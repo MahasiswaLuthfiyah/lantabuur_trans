@@ -8,7 +8,7 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
-// eslint-disable-next-line
+// ✅ Komponen Template
 export const IndexPageTemplate = ({
   image,
   title,
@@ -23,41 +23,54 @@ export const IndexPageTemplate = ({
   return (
     <div>
       <FullWidthImage img={heroImage} title={title} />
+
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
-                  <div className="content">
-                    <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
-                    </div>
-                    <div className="tile">
-                      <p>{mainpitch.description}</p>
-                    </div>
+                  <div className="tile">
+                    <h1 className="title">{mainpitch.title}</h1>
                   </div>
+                  <div className="tile">
+                    <p>{mainpitch.description}</p>
+                  </div>
+
                   <div className="columns">
                     <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
+                      {/* ⚡️ Ganti H3 → H2 */}
+                      <h2 className="has-text-weight-semibold is-size-2">
                         {heading}
-                      </h3>
+                      </h2>
                       <p>{description}</p>
                       <p>{subdescription}</p>
                     </div>
                   </div>
+
+                  {/* Jika komponen Features punya judul sendiri, pastikan hirarkinya H3 */}
+                  {intro.heading && (
+                    <h3 className="has-text-weight-semibold is-size-3">
+                      {intro.heading}
+                    </h3>
+                  )}
+                  {intro.description && <p>{intro.description}</p>}
+
                   <Features gridItems={intro.blurbs} />
+
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/harga">
-                        See all price
+                        Lihat Semua Harga
                       </Link>
                     </div>
                   </div>
+
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
-                    </h3>
+                    {/* ⚡️ Ganti H3 → H2 */}
+                    <h2 className="has-text-weight-semibold is-size-2">
+                      Cerita Terbaru
+                    </h2>
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">
                       <Link className="button" to="/blog">
@@ -65,6 +78,7 @@ export const IndexPageTemplate = ({
                       </Link>
                     </div>
                   </div>
+
                 </div>
               </div>
             </div>
@@ -84,9 +98,12 @@ IndexPageTemplate.propTypes = {
   subdescription: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
+    heading: PropTypes.string,
+    description: PropTypes.string,
   }),
 };
 
+// ✅ Komponen Halaman
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
@@ -115,6 +132,7 @@ IndexPage.propTypes = {
 
 export default IndexPage;
 
+// ✅ Query GraphQL
 export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
