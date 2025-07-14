@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /blog
+path: /blog/mengenal-elf-suzuki-15-seat//
 title: Mengenal Mobil Elf Suzuki 15 Seat untuk Perjalanan Nyaman
 date: 2025-04-19T10:00:00.000Z
 featuredpost: false

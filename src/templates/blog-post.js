@@ -6,7 +6,6 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
-// eslint-disable-next-line
 export const BlogPostTemplate = ({
   content,
   contentComponent,
@@ -29,8 +28,12 @@ export const BlogPostTemplate = ({
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
+              <nav
+                className="tags-list"
+                style={{ marginTop: `4rem` }}
+                aria-label="Tags"
+              >
+                <h2>Tags</h2>
                 <ul className="taglist">
                   {tags.map((tag) => (
                     <li key={tag + `tag`}>
@@ -38,7 +41,7 @@ export const BlogPostTemplate = ({
                     </li>
                   ))}
                 </ul>
-              </div>
+              </nav>
             ) : null}
           </div>
         </div>
@@ -53,6 +56,7 @@ BlogPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  tags: PropTypes.array,
 };
 
 const BlogPost = ({ data }) => {

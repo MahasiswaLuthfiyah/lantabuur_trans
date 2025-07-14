@@ -2,7 +2,7 @@ const _ = require('lodash');
 const path = require('path');
 const { createFilePath } = require('gatsby-source-filesystem');
 
-exports.createPages = async ({ graphql, actions, reporter }) => {
+exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
 
   const result = await graphql(`
@@ -15,9 +15,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
               slug
             }
             frontmatter {
-              path
               tags
               templateKey
+              path
             }
           }
         }
@@ -32,24 +32,22 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const posts = result.data.allMarkdownRemark.edges;
 
-  // ✅ Buat halaman dari markdown
   posts.forEach(({ node }) => {
     const id = node.id;
-    const templateKey = node.frontmatter.templateKey;
 
-    if (templateKey) {
-      // Gunakan frontmatter.path jika ada, fallback ke slug
-      const pagePath = node.frontmatter.path || node.fields.slug;
+    // Gunakan frontmatter.path jika ada, fallback ke slug
+    const pagePath = (node.frontmatter.path || node.fields.slug).toLowerCase();
 
-      createPage({
-        path: pagePath,
-        component: path.resolve(`src/templates/${templateKey}.js`),
-        context: { id },
-      });
-    }
+    createPage({
+      path: pagePath,
+      component: path.resolve(
+        `src/templates/${String(node.frontmatter.templateKey)}.js`
+      ),
+      context: { id },
+    });
   });
 
-  // ✅ Kumpulkan semua tag unik
+  // Buat halaman untuk tags
   let tags = [];
   posts.forEach(({ node }) => {
     if (_.get(node, 'frontmatter.tags')) {
@@ -58,7 +56,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   });
   tags = _.uniq(tags);
 
-  // ✅ Buat halaman untuk tiap tag
   tags.forEach((tag) => {
     createPage({
       path: `/tags/${_.kebabCase(tag)}/`,
@@ -72,11 +69,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
 
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` });
+    const value = createFilePath({ node, getNode, basePath: `pages` });
     createNodeField({
-      node,
       name: `slug`,
-      value: slug,
+      node,
+      value,
     });
   }
 };

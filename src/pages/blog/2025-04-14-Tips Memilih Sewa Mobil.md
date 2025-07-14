@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-path: /blog
+path: /blog/tips-memilih-sewa-mobil-luxio/
 title: Tips Memilih Sewa Mobil Luxio untuk Perjalanan Nyaman
 date: 2025-04-14T10:00:00.000Z
 featuredpost: true
@@ -14,7 +14,6 @@ tags:
   - mobil luxio
   - tips memilih mobil
   - tips sewa mobil
-  - tips mudik aman dan nyaman
   - tips mudik lebaran
   - jasa antar jemput bandara Jakarta
   - jasa antar jemput jakarta

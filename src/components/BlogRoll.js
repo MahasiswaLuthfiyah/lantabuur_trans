@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
+import React from "react";
+import PropTypes from "prop-types";
+import { Link, graphql, StaticQuery } from "gatsby";
+import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
 const BlogRollTemplate = ({ data }) => {
-  const posts = data?.allMarkdownRemark?.edges || []
+  const posts = data?.allMarkdownRemark?.edges || [];
 
   return (
     <div className="columns is-multiline">
@@ -13,16 +13,19 @@ const BlogRollTemplate = ({ data }) => {
           <div className="is-parent column is-6" key={post.id}>
             <article
               className={`blog-list-item tile is-child box notification ${
-                post.frontmatter?.featuredpost ? 'is-featured' : ''
+                post.frontmatter?.featuredpost ? "is-featured" : ""
               }`}
             >
               <header>
+                {post.frontmatter?.featuredpost && (
+                  <span className="badge-featured">Unggulan</span>
+                )}
                 {post.frontmatter?.featuredimage && (
                   <div className="featured-thumbnail">
                     <PreviewCompatibleImage
                       imageInfo={{
                         image: post.frontmatter.featuredimage,
-                        alt: `Featured image thumbnail for post ${post.frontmatter.title || ''}`,
+                        alt: `Featured image thumbnail for post ${post.frontmatter.title || ""}`,
                         width:
                           post.frontmatter.featuredimage.childImageSharp
                             ?.gatsbyImageData?.width || 120,
@@ -36,13 +39,13 @@ const BlogRollTemplate = ({ data }) => {
                 <p className="post-meta">
                   <Link
                     className="title has-text-primary is-size-4"
-                    to={post.fields?.slug || '/'}
+                    to={post.fields?.slug || "/"}
                   >
-                    {post.frontmatter?.title || 'Untitled'}
+                    {post.frontmatter?.title || "Untitled"}
                   </Link>
                   <span> &bull; </span>
                   <span className="subtitle is-size-5 is-block">
-                    {post.frontmatter?.date || ''}
+                    {post.frontmatter?.date || ""}
                   </span>
                 </p>
               </header>
@@ -50,10 +53,7 @@ const BlogRollTemplate = ({ data }) => {
                 {post.excerpt}
                 <br />
                 <br />
-                <Link
-                  className="button"
-                  to={post.fields?.slug || '/'}
-                >
+                <Link className="button" to={post.fields?.slug || "/"}>
                   Baca selengkapnya →
                 </Link>
               </p>
@@ -64,8 +64,8 @@ const BlogRollTemplate = ({ data }) => {
         <p>Tidak ada artikel.</p>
       )}
     </div>
-  )
-}
+  );
+};
 
 BlogRollTemplate.propTypes = {
   data: PropTypes.shape({
@@ -77,7 +77,7 @@ BlogRollTemplate.propTypes = {
       ),
     }),
   }),
-}
+};
 
 export default function BlogRoll() {
   return (
@@ -117,5 +117,5 @@ export default function BlogRoll() {
       `}
       render={(data) => <BlogRollTemplate data={data} />}
     />
-  )
+  );
 }
